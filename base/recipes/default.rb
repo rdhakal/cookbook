@@ -1,5 +1,7 @@
-#
-# Cookbook:: base
-# Recipe:: default
-#
-# Copyright:: 2019, The Authors, All Rights Reserved.
+package "firewalld" do
+  action :stop
+end
+
+package "firewalld" do
+  action :
+end
